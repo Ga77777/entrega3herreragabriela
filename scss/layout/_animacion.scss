@@ -1,0 +1,22 @@
+.text-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50px; 
+}
+
+.animated-text {
+    position: absolute;
+    right: 100%;
+    top: 0;
+    font-size: 24px;
+    color: rgb(193, 226, 27);
+    font-weight: bold;
+    background-color: black;
+    animation: slideLeft 10s linear infinite; 
+}
+
+@keyframes slideLeft {
+    0% { right: 100%; }
+    100% { right: 0; } 
+}

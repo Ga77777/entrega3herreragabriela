@@ -1,0 +1,36 @@
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    background-color: white;
+
+    nav{
+        display: none;
+    
+
+        li{
+            font-size: 1.5rem;
+        
+        }
+    }
+
+    
+    img{
+        width: 250px;
+    }
+
+    .boton-menu{
+        a{
+            display: none;
+        }
+        img{
+            display: none;
+            text-align: right;
+            display:inline-block;
+            width:60%;
+         
+        }
+    }
+
+}

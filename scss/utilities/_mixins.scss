@@ -1,0 +1,30 @@
+$color-negro: black;
+$color-turquesa: #0cb7f2;
+$color-celeste-claro:#bceeff;
+$color-blanco: white;
+$color-amarillo: #edf222;
+$color-verde:#97f425;
+
+@mixin texto-parrafo($fuente, $size, $color){
+    font-family: $fuente;
+    font-size: $size;
+    color: $color;
+}
+
+
+
+main{
+        .section_tarjeta{
+            background-color: $color-blanco;
+            .card{
+                .card-body{
+
+                    .card-title{
+                        @include texto-parrafo(Arial, 2rem, rgb(59, 49, 49));
+                    }                
+                }
+            }  
+        }
+    }
+
+

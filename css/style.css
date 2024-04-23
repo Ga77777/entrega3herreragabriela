@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.anuncio {
+  background-color: rgb(5, 5, 5);
+  color: white;
+  padding: 15px;
+}
+.anuncio p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.anuncio p span {
+  font-weight: bold;
+}
+.anuncio .row-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  background-color: white;
+}
+header nav {
+  display: none;
+}
+header nav li {
+  font-size: 1.5rem;
+}
+header img {
+  width: 250px;
+}
+header .boton-menu a {
+  display: none;
+}
+header .boton-menu img {
+  display: none;
+  text-align: right;
+  display: inline-block;
+  width: 60%;
+}
+
+main {
+  margin: 50px;
+  padding: 5opx;
+}
+main section #titulo-pag-princ {
+  color: #bceeff;
+  font-family: "Great Vibes", cursive;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  font-size: 8rem;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+main section p {
+  margin: 25px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+main section .contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+main section .container-botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section .container-botones .boton-pag-princ, main section .container-botones .boton-pag-princ-2 {
+  background-color: #edf222;
+  padding: 15px;
+  border-radius: 5px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px;
+}
+main section .container-botones .carousel-caption {
+  font-size: 50;
+  color: red;
+}
+
+.footer {
+  padding-top: 250px;
+  margin: 10px;
+  color: rgb(13, 12, 12);
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    align-items: center;
+  }
+  header nav {
+    display: block;
+  }
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  header nav ul li {
+    margin: 5px;
+  }
+  header nav ul li a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+  }
+  header nav ul li a:hover {
+    color: rgb(14, 114, 157);
+    margin: 10px;
+  }
+  header .boton-menu {
+    display: flex;
+    align-items: center;
+  }
+  header .boton-menu a {
+    display: block;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 15px;
+  }
+  header .boton-menu a:hover {
+    color: red;
+  }
+}
+.contenedor {
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
+}
+
+.section_tarjeta {
+  padding-bottom: 80px;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.section_tarjeta .card {
+  display: flex;
+  margin: 25px;
+  background-color: white;
+  height: 100px;
+}
+.section_tarjeta .card .card-body {
+  justify-content: center;
+  align-items: center;
+}
+.section_tarjeta .card .card-title {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main .section_tarjeta {
+  background-color: white;
+}
+main .section_tarjeta .card .card-body .card-title {
+  font-family: Arial;
+  font-size: 2rem;
+  color: rgb(59, 49, 49);
+}
+
+.my-button {
+  padding: 10px 20px;
+  background-color: #080808;
+  color: rgb(245, 248, 239);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font: bold;
+  margin-left: 10px;
+  width: 150px;
+}
+
+.video-container {
+  position: relative;
+  align-items: center;
+  height: 0px;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.video {
+  position: absolute;
+  top: 0px;
+  left: 200px;
+  width: 80%;
+  height: 80%;
+  margin: 10px;
+}
+
+.cont_tarjetas {
+  padding-bottom: 80px;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.ol {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin: 0;
+  padding: 0;
+}
+
+.first-day1 {
+  grid-column-start: 6;
+}
+
+.first-day2 {
+  grid-column-start: 2;
+}
+
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.day-name {
+  background: #eee;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 2px;
+  padding: 2px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.map-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.text-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 50px;
+}
+
+.animated-text {
+  position: absolute;
+  right: 100%;
+  top: 0;
+  font-size: 24px;
+  color: rgb(193, 226, 27);
+  font-weight: bold;
+  background-color: black;
+  animation: slideLeft 10s linear infinite;
+}
+
+@keyframes slideLeft {
+  0% {
+    right: 100%;
+  }
+  100% {
+    right: 0;
+  }
+}
+.carousel-caption h5 {
+  font-size: 150px;
+  color: rgb(59, 49, 49);
+  font-family: "Great Vibes";
+}
+
+/*# sourceMappingURL=style.css.map */

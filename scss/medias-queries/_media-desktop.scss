@@ -1,0 +1,50 @@
+$color-negro: black;
+$color-turquesa: #0cb7f2;
+$color-celeste-claro:#bceeff;
+$color-blanco: white;
+$color-amarillo: #edf222;
+$color-verde:#97f425;
+
+
+@media screen and (min-width: 1024px) {
+    header{
+        align-items: center;
+        nav{
+            display: block;
+            ul{
+                list-style: none;
+                display: flex;
+
+                li{
+                    margin: 5px;
+
+                    a{
+                        color: rgb(8, 8, 8);
+                        text-decoration: none;
+                        font-family: Arial, Helvetica, sans-serif;
+                        transition: 1s;
+                        &:hover {
+                            color: rgb(14, 114, 157);
+                            margin: 10px;
+                        }
+                    }
+                }
+
+            }
+        }
+        .boton-menu{
+            display: flex;
+            align-items: center;
+            a{
+                display: block;
+                color: rgb(8, 8, 8);
+                text-decoration: none;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-right: 15px;
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+}

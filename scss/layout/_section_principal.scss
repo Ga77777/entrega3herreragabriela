@@ -1,0 +1,67 @@
+$color-negro: black;
+$color-turquesa: #0cb7f2;
+$color-celeste-claro:#bceeff;
+$color-blanco: white;
+$color-amarillo: #edf222;
+$color-verde:#97f425;
+
+main{
+
+    margin: 50px;
+    padding: 5opx;
+    section{
+        #titulo-pag-princ{
+            color: $color-celeste-claro;
+            font-family: "Great Vibes", cursive;
+            font-weight: 200;
+            font-style: normal;
+            text-align: center;
+            font-size: 8rem;
+            margin-top: 15px;
+            margin-bottom: 35px;
+        }
+
+        p{
+            margin: 25px;
+            color: $color-negro;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+   
+        .contenedor {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative; 
+        }
+
+        
+        .container-botones{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+
+            .boton-pag-princ{
+                background-color: $color-amarillo;
+                padding: 15px;
+                border-radius: 5px;
+                color: $color-negro;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                width: 150px;
+                text-align: center;
+                text-decoration: none;
+                margin: 15px;
+            }
+            .boton-pag-princ-2{
+                @extend .boton-pag-princ;
+        
+            }
+
+            .carousel-caption{
+                font-size: 50;
+                color: red;
+            }
+        }
+    }
+}

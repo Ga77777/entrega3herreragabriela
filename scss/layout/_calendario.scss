@@ -1,0 +1,49 @@
+  
+    .ol {
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        margin: 0;
+        padding: 0;
+    }
+
+    .first-day1 {
+        grid-column-start: 6;
+     }
+
+     .first-day2 {
+        grid-column-start: 2;
+     }
+
+     
+     .form{
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+     
+    .day-name {
+        background: #eee;
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 2px;
+        padding: 2px;
+        text-align: center;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
